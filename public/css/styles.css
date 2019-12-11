@@ -1,0 +1,79 @@
+
+html {
+  background-color: #e8e8e8;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+h1 {
+  text-transform: uppercase;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+label {
+  display: block;
+  text-align: left;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  margin: 30px 0;
+}
+
+button {
+  -webkit-appearance: none;
+  padding: 10px 30px;
+  border: 2px solid black;
+  border-radius: 4px;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+button:hover {
+  cursor: pointer;
+}
+
+input {
+  border: 0;
+  padding: 10px 30px;
+  border: 2px solid black;
+  border-radius: 4px;
+  margin-right: 20px;
+  text-align: center;
+}
+
+ul {
+  padding: 0;
+  text-align: left;
+}
+
+
+li {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  padding: 20px;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+span {
+  flex: 4;
+  font-weight: 100;
+}
+
+button.edit, button.delete {
+  color: white;
+  width: auto;
+  font-size: 19px;
+}
+
+button.delete {
+  background-color: #e04242;
+  margin-left: 20px;
+}
+
+button.edit {
+  background-color: #588da2;
+  margin-left: 20px;
+}
